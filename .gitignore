@@ -1,0 +1,131 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+dev-env/
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Node.js / React =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+*.tgz
+
+# React build output
+frontend/build/
+frontend/dist/
+
+# ===== Environment & Config =====
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ===== IDEs and Editors =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== Operating System =====
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===== Logs =====
+logs/
+*.log
+backend/logs/
+
+# ===== Database Files =====
+*.db
+*.sqlite
+*.sqlite3
+backend/db/.*.db.lock
+
+# ===== Model Files (Large Files) =====
+# Model directories (too large for GitHub)
+backend/models/*/
+!backend/models/.gitkeep
+
+# Hugging Face cache
+.cache/huggingface/
+.cache/torch/
+
+# ===== Data Files =====
+# Large CSV files (keep the main financial terms file)
+backend/data/SNOMED_FULL.csv
+*CONCEPT*.csv
+
+# Backup and temporary data
+01.standardization/
+02.abbr_expansion/
+03.model_mapping/
+04.backup/
+
+# ===== Temporary Files =====
+*.tmp
+*.temp
+.cache/
+notes.txt
+
+# ===== Testing =====
+.coverage
+.pytest_cache/
+.tox/
+htmlcov/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints/
+*.ipynb
+
+# ===== Others =====
+# Old database directories
+milvus_db/
+snomed_db/
